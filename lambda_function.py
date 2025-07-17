@@ -14,7 +14,6 @@ def lambda_handler(event, context):
 
     webhook_url = "https://chat.googleapis.com/v1/spaces/AAAAlHaneYM/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=rammRFetJsfPcv2uXyQVBOxU2bsZwJS11jBzmi127j4"
 
-    webhook_url = "https://chat.googleapis.com/v1/spaces/AAAAlHaneYM/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=rammRFetJsfPcv2uXyQVBOxU2bsZwJS11jBzmi127j4"
 
     if 500 <= status_code < 600:
         message = {
